@@ -1,33 +1,35 @@
 {
-  "name" : "pixel-tracker",
-  "version" : "0.0.5",
-  "description" : "a simple pixel tracker for node",
-  "main" : "index.js",
-  "bin" : {},
-  "directories" : {
-    "test" : "test"
+  "name": "pixel-tracker",
+  "version": "0.0.5",
+  "description": "a simple pixel tracker for node",
+  "main": "index.js",
+  "bin": {},
+  "directories": {
+    "test": "test"
   },
-  "dependencies" : { },
-  "devDependencies" : {
+  "dependencies": {
+    "useragent": "^2.3.0"
+  },
+  "devDependencies": {
     "express": "~4.x.x",
     "tap": "~11.1.4"
   },
-  "scripts" : {
-    "test" : "tap test/*.js"
+  "scripts": {
+    "test": "tap test/*.js"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "git://github.com/tblobaum/pixel-tracker.git"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tblobaum/pixel-tracker.git"
   },
-  "homepage" : "https://github.com/tblobaum/pixel-tracker",
-  "keywords" : [
+  "homepage": "https://github.com/tblobaum/pixel-tracker",
+  "keywords": [
     "pixel",
     "tracker"
   ],
-  "author" : {
-    "name" : "Thomas Blobaum",
-    "email" : "tblobaum@gmail.com",
-    "url" : "https://github.com/tblobaum/"
+  "author": {
+    "name": "Thomas Blobaum",
+    "email": "tblobaum@gmail.com",
+    "url": "https://github.com/tblobaum/"
   },
   "contributors": [
     "Butu Kumar (https://github.com/butu5/)",
@@ -35,5 +37,5 @@
     "Noah H. Smith (https://github.com/noazark)",
     "Qasim Zaidi (https://github.com/qzaidi)"
   ],
-  "license" : "MIT"
+  "license": "MIT"
 }
