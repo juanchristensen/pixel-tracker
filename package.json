@@ -9,8 +9,8 @@
   },
   "dependencies" : { },
   "devDependencies" : {
-    "express": "~2.x.x",
-    "tap" : "~0.2.5"
+    "express": "~4.x.x",
+    "tap": "~11.1.4"
   },
   "scripts" : {
     "test" : "tap test/*.js"
